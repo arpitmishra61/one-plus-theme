@@ -1,0 +1,251 @@
+*{
+    margin: 0;
+    
+}
+
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(246, 246, 247);
+    user-select: none;
+}
+
+nav{
+    background-color: rgb(245, 63, 63);
+    padding: 20px;
+    box-sizing: border-box;
+
+}
+
+nav ul{
+  float: right;
+   
+    
+    
+}
+nav li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 10px;
+
+}
+nav li a{
+    color: white;
+    text-decoration: none;
+}
+
+nav a:hover{
+    background-color: beige;
+    color: rgb(102, 101, 101);
+    padding: 5px;
+}
+
+.nav-branding{
+    color: aliceblue;
+    display: inline;
+    margin-left: 50px;
+   
+
+    
+    
+}
+
+.sideBar{
+    box-sizing: border-box;
+    height: 100vh;
+     position: fixed;
+    top: 0px;
+    width: 300px;
+    z-index: 1;
+    background-color: rgb(249, 252, 252);
+    box-shadow: 1px 10px 10px rgb(102, 102, 102);
+    display: none;
+    left: 0px;
+    padding: 10px;
+   
+
+}
+
+.sideBar .main{
+     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 90%;
+
+}
+.sideBar li:hover{
+    color:rgb(245, 63, 63) ;
+    cursor: pointer;
+    border: 1px solid red;
+}
+nav i{
+    color:white;
+    font-size: 30px;
+  top: 4px;
+   position: relative;
+   
+    cursor: pointer;
+}
+
+.closeButton{
+  
+    
+    color: rgb(20, 20, 20);
+    cursor: pointer;
+    
+}
+.sideBar nav{
+    display: block;
+
+}
+
+.sideBar ul{
+   padding-inline-start: 0px;
+   clear: both;
+}
+.list-group-item{
+    list-style: none;
+    margin-top: 8px;
+    padding: 8px;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+
+
+
+.logo{
+    display: flex;
+   
+    
+    justify-content: center;
+}
+
+.closeBar{
+    
+   height: 50px;
+   display: flex;
+   flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  padding-right: 6px;
+  border-bottom: 2px solid red;
+  border-radius: 3px;
+ 
+  
+}
+
+.container{
+    background-image: url('https://static1.squarespace.com/static/50640553e4b0e9530e2dfb13/5076b0f084ae1ac54deb3842/5d8cd1a34c04a40714d9147f/1569515840086/opTV_header.jpg?format=1500w');
+    height: 89.8vh;
+   
+     margin-bottom: 15px;
+}
+
+.container .content{
+    background-color: rgba(0, 0, 0, 0.623);
+    height: inherit;
+    display: flex;
+    
+  align-items: center;
+  justify-content:center;
+ 
+}
+.container .text{
+    font-size: 30px;
+    color: white;
+    flex:1;
+   
+    text-transform: capitalize;
+    word-spacing: 1em;
+    letter-spacing: 0.3em;
+    line-height: 2.5em;
+   
+   
+
+
+}
+.container img{
+    width: 70vh;
+  
+}
+
+.container .phone{
+    flex:1;
+    display: flex;
+    justify-content: center;
+  
+}
+
+.navImage{
+    display: inline-block;
+    position:absolute;
+    width:50px !important;
+    top:8px;
+    left: 80px;
+}
+
+.container-2{
+    height:95vh;
+    background-image: none;
+    background-color: rgb(238, 238, 238);
+    
+}
+.container-2 .content{
+    background-color:transparent;
+    
+}
+
+.container-2 .text h1{
+    color: rgb(39, 39, 39);
+    font-size: 48px;
+   
+
+}
+
+.container-2 .text p{
+     color: rgb(58, 57, 57);
+     line-height: normal;
+     word-spacing: normal;
+     letter-spacing: normal;
+     font-size: 25px;
+
+}
+
+.container-2 .text .extraText{
+      font-size: 18px;
+      font-weight: 500;
+
+}
+
+.infoButton{
+    padding: 15px;
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+    border: 2px solid rgb(78, 78, 78);
+    width: 130px;
+    font-size: 16px;
+    margin-bottom: 11px;
+
+}
+
+.container-3 .content .text{
+  display: flex;
+  justify-content: center;
+    
+   
+}
+.container-4{
+    height:90vh;
+    background-image: url('https://images.wallpapersden.com/image/download/oneplus-tv-stock_67045_3840x2160.jpg');
+background-position-y:-1200px;
+
+}
+
+.container-4  .text h1, .container-4 .text p {
+    color: white !important;
+}
+
+.container-4 .infoButton{
+    color: white;
+    border-color: white;
+}
