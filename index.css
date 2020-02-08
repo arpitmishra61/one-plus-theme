@@ -5,7 +5,7 @@
 
 body{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: rgb(246, 246, 247);
+    background-color: rgb(255, 255, 255);
     user-select: none;
   overflow-x: hidden;
 }
@@ -14,6 +14,8 @@ nav{
     background-color: rgb(245, 63, 63);
     padding: 20px;
     box-sizing: border-box;
+    position: fixed;
+    width: 100%;
 
 }
 
@@ -58,8 +60,8 @@ nav a:hover{
     width: 300px;
     z-index: 1;
     background-color: rgb(249, 252, 252);
-    box-shadow: 1px 10px 10px rgb(102, 102, 102);
-    display: none;
+    box-shadow: 10px 10px 10px rgb(17, 17, 17);
+   visibility: hidden;
     left: 0px;
     padding: 10px;
    
@@ -136,9 +138,11 @@ nav i{
 
 .container{
     background-image: url('https://static1.squarespace.com/static/50640553e4b0e9530e2dfb13/5076b0f084ae1ac54deb3842/5d8cd1a34c04a40714d9147f/1569515840086/opTV_header.jpg?format=1500w');
-    height: 89.8vh;
+    height: 93.8vh;
+    background-size: cover;
    
      margin-bottom: 15px;
+     padding-top: 68px;
 }
 
 .container .content{
@@ -239,6 +243,7 @@ nav i{
     height:90vh;
     background-image: url('https://images.wallpapersden.com/image/download/oneplus-tv-stock_67045_3840x2160.jpg');
 background-position-y:-1200px;
+background-attachment: fixed;
 
 }
 
@@ -257,7 +262,7 @@ background-position-y:-1200px;
   
   
     
-    margin-top: 90px;
+    margin-top: 15px;
     flex-wrap: wrap;
     justify-content: space-around;
 
@@ -271,7 +276,7 @@ background-position-y:-1200px;
   height: 90vh;
    justify-content: center;
   
-    margin-bottom: 25px;
+    margin-bottom: 15px;
     flex-direction: column;
      
      
@@ -282,20 +287,24 @@ background-position-y:-1200px;
 
 .gridBar .one{
     background-color: rgb(236, 233, 233);
+flex-basis: 40%;
 
 }
 
 .gridBar .two{
      background-color: rgb(236, 227, 227);
+     flex-basis: 58%;
 }
 
 .gridBar .three{
      background-color: rgb(214, 214, 214);
+     flex-basis: 58%;
      
 }
 
 .gridBar .four{
-    background-color: rgb(255, 245, 245);
+    background-color: rgb(252, 233, 233);
+    flex-basis: 40%;
     
 }
 
